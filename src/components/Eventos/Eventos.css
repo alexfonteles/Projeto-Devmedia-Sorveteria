@@ -1,0 +1,36 @@
+.box-banner-eventos{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+.box-banner-eventos img{
+    width: 100%;
+}
+
+#eventos{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+@media screen and (min-width: 769px)
+{
+    .box-banner-eventos img{
+        height: 500px;
+    }
+    
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 768px)
+{
+
+}
+
+
+@media screen and (max-width: 550px)
+{
+
+}

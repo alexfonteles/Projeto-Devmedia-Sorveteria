@@ -1,6 +1,12 @@
+footer {
+    background-color: rgb(5, 5, 5);
+    color: #fff;
+    text-align: center;
+}
+
 @media screen and (min-width: 769px)
 {
-   
+
     
 }
 

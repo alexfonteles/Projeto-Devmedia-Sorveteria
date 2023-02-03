@@ -1,0 +1,53 @@
+.capa{
+    background-color: bisque;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+#texto{
+    color: white;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 32px;
+    position: absolute;
+    left: 37%;
+    top: 45%;
+}
+
+@media screen and (min-width: 769px)
+{
+
+    
+}
+
+
+
+@media screen and (min-width: 551px) and (max-width: 768px)
+{
+    #texto{
+        left: 20%;
+        top: 45%;    
+    }
+}
+
+
+
+@media screen and (max-width: 550px)
+{
+    .capa{
+        background-color: bisque;
+        justify-content: space-between;
+        text-align: center;
+        position: relative;
+    }
+    #imagem{
+        position: absolute;
+    }
+    
+    #texto{
+        font-size: 50px;
+        left: 0%;
+        top: 25%;    
+    }
+}
